@@ -8,7 +8,7 @@ aantalKeerDieper = 0
 for line in lines:
     diepte = int(line)
 
-    if diepte > vorigeDiepte:
+    if diepte > vorigeDiepte and vorigeDiepte != 0:
       aantalKeerDieper = aantalKeerDieper + 1
     vorigeDiepte = diepte
     
